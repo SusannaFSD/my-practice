@@ -1,19 +1,44 @@
+<!-- #region header -->
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
+  <div class="container header-container">
+    <nav class="header-navigation">
+      <a href="./index.html" class="header-logo">
+        <svg class="logo-svg" width="40" height="36">
+          <use href="./images/icons.svg#icon-logo"></use>
         </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+        Product</a
+      >
+
+      <ul class="list-navigation">
+        <li class="item-navigation">
+          <a href="./index.html" class="current-link">Product</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="item-navigation">
+          <a href="./pricing.html" class="link-navigation">Pricing</a>
+        </li>
+        <li class="item-navigation">
+          <a href="./customers.html" class="link-navigation">Customers</a>
+        </li>
+        <li class="item-navigation">
+          <a href="./resourses.html" class="link-navigation">Resources</a>
         </li>
       </ul>
     </nav>
+
+    <ul class="header-list-button">
+      <li class="header-item-button">
+        <button type="button" class="btn-sing-in">Sing In</button>
+      </li>
+      <li class="header-item-button">
+        <button type="button" class="btn-sing-up">Sing Up</button>
+      </li>
+    </ul>
+
+    <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger-icon" width="28" height="31">
+        <use href="./images/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
   </div>
 </header>
+<!-- #endregion header -->
