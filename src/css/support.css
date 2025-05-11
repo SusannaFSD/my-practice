@@ -1,0 +1,37 @@
+/* #region support */
+
+.support {
+    padding: 50px 0;
+}
+
+.support-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 84px;
+}
+
+.support-paragraph {
+    max-width: 450px;
+}
+
+.support-item-content {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.item-text-support {
+    max-width: 385px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #22343d;
+    align-items: center;
+}
+
+/* #endregion support */

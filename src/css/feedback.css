@@ -1,0 +1,120 @@
+/* #region feedback */
+
+.feedback {
+    padding: 50px 0;
+}
+
+.feedback-container {
+    margin: 0 auto;
+}
+
+.feedback-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78125;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.feedback-paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #22343d;
+    max-width: 323px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+
+.desktop-br {
+    display: none;
+}
+
+.feedback-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+
+}
+
+.feedback-card-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 28px;
+    max-width: 327px;
+    transition: transform 250ms ease-in-out;
+    box-shadow: 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.feedback-card-item:hover,
+.feedback-card-item:focus-within {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+}
+
+.icon-star,
+.icon-emptystar {
+    fill: #f3cd03;
+    margin-bottom: 16px;
+}
+
+.feedback-item-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    margin-bottom: 16px;
+}
+
+.feedback-namecard {
+    display: flex;
+    gap: 14px;
+}
+
+.feedback-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.feedback-name-position {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 0.01em;
+    color: #252b42;
+}
+
+@media screen and (min-width: 1150px) {
+
+    .feedback-title {
+        margin-bottom: 10px;
+    }
+
+    .feedback-paragraph {
+        max-width: 537px;
+        margin-bottom: 32px;
+    }
+
+    .desktop-br {
+        display: inline;
+    }
+
+    .feedback-cards {
+        max-width: 1110px;
+        gap: 64px;
+
+    }
+}
+
+/* #endregion feedback */

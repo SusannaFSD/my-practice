@@ -1,0 +1,201 @@
+/* #region price */
+
+.price-section {
+    padding-top: 31px;
+    padding-bottom: 50px;
+}
+
+.price-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: #22343d;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.price-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: #22343d;
+    margin-bottom: 74px;
+    text-align: center;
+}
+
+.price-cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    background: #fff;
+    border-radius: 8px;
+    width: 322px;
+    min-height: 456px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.price-card:hover,
+.price-card:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
+        0 1px 1px rgba(46, 47, 66, 0.16),
+        0 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.plan-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.7;
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.plan-description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    color: #22343d;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.price-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 16px;
+    line-height: 1;
+}
+
+.price-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 8px;
+    line-height: 1.1;
+}
+
+.number-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1;
+    color: #02897a;
+}
+
+.dollar {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #02897a;
+}
+
+.monthly-price {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #afafaf;
+}
+
+.plan-features {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.37;
+    color: #22343d;
+    margin-bottom: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.plan-features li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.btn-order,
+.btn-order-green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    border-radius: 8px;
+    min-width: 139px;
+    height: 44px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-order {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.btn-order:hover,
+.btn-order:focus {
+    color: #02695f;
+    background-color: #fff;
+    border: 1px solid #02695f;
+}
+
+.btn-order-green {
+    background-color: #fff;
+    color: #02897a;
+}
+
+.btn-order-green:hover,
+.btn-order-green:focus {
+    background-color: #02695f;
+    color: #fff;
+}
+
+.price-card-green {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.price-card-green .plan-title,
+.price-card-green .plan-description,
+.price-card-green .plan-features,
+.price-card-green .number-price,
+.price-card-green .dollar,
+.price-card-green .monthly-price {
+    color: #fff;
+}
+
+@media screen and (min-width: 1150px) {
+    .price-section {
+        padding-top: 100px;
+    }
+
+    .price-title {
+        margin-bottom: 10px;
+    }
+
+    .price-subtitle {
+        margin-bottom: 40px;
+    }
+
+    .price-cards {
+        gap: 72px;
+    }
+
+}
+
+/* #endregion price */
